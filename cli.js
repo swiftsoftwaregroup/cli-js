@@ -4,7 +4,7 @@ const { program } = require('commander');
 const fs = require('fs').promises;
 
 program
-  .name('cli-node')
+  .name('cli-js')
   .description('CLI tool for greeting users in different languages')
   .version('1.0.0');
 
