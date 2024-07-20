@@ -8,8 +8,14 @@
   "bin": {
     "cli-js": "./cli.js"
   },
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "commander": "12.1.0",
     "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "jest": "29.7.0"
   }
 }

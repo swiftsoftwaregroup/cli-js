@@ -59,6 +59,12 @@ Open the project in Visual Studio Code:
 code .
 ```
 
+### Test
+
+```bash
+npm test
+```
+
 ### Run
 
 ```bash
@@ -97,5 +103,6 @@ npm init --yes --init-version 0.1.0 --init-license Apache-2.0
 
 # add packages
 npm install commander fs
+npm install --save-dev jest
 ```
 
