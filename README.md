@@ -59,12 +59,6 @@ Open the project in Visual Studio Code:
 code .
 ```
 
-### Test
-
-```bash
-npm test
-```
-
 ### Run
 
 ```bash
@@ -75,6 +69,20 @@ echo "John" > name.txt
 ./cli.js greet name.txt
 ./cli.js greet --language es name.txt
 ./cli.js greet -l bg name.txt
+```
+
+### Test
+
+```bash
+npm test
+```
+
+### Generate Docs
+
+```bash
+npm run docs
+
+open ./docs/index.html
 ```
 
 ### Use as a global tool
@@ -103,6 +111,6 @@ npm init --yes --init-version 0.1.0 --init-license Apache-2.0
 
 # add packages
 npm install commander fs
-npm install --save-dev jest
+npm install --save-dev jest jsdoc docdash
 ```
 

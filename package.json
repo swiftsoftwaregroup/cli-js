@@ -2,20 +2,28 @@
   "name": "cli-js",
   "version": "1.0.0",
   "description": "Template for Command Line Interface (CLI) tool for Node.js and JavaScript",
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cli",
+    "greeting",
+    "multilingual"
+  ],
+  "author": "V. Kantchev",
   "license": "Apache-2.0",
+  "main": "cli.js",
   "bin": {
     "cli-js": "./cli.js"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "docs": "jsdoc --configure jsdoc.json"
   },
   "dependencies": {
     "commander": "12.1.0",
     "fs": "0.0.1-security"
   },
   "devDependencies": {
-    "jest": "29.7.0"
+    "docdash": "2.0.2",
+    "jest": "29.7.0",
+    "jsdoc": "4.0.3"
   }
 }
